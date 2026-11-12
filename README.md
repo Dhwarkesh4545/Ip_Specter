@@ -43,3 +43,12 @@ source venv/bin/activate
 
 # 4. Install required dependencies inside the environment
 pip install -r requirements.txt
+
+# Alternative Commands:
+# Clone the repository (if not already done)
+git clone [https://github.com/Dhwarkesh4545/Ip_Specter.git](https://github.com/Dhwarkesh4545/Ip_Specter.git)
+cd Ip_Specter
+
+# Install dependencies globally with the system flag
+pip install -r requirements.txt --break-system-packages
+
