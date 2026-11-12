@@ -26,12 +26,20 @@
 
 ## 📦 Installation & Setup
 
-Clone the repository and set up your environment locally on Kali Linux or any Unix-based system:
+Due to modern Kali Linux security policies regarding externally managed environments, it is strongly recommended to install and run this tool inside a Python virtual environment.
+
+### Method 1: Using a Virtual Environment (Recommended)
 
 ```bash
-# Clone the repository
-git clone [https://github.com/YourUsername/Ip_Specter.git](https://github.com/YourUsername/Ip_Specter.git)
+# 1. Clone the repository
+git clone [https://github.com/Dhwarkesh4545/Ip_Specter.git](https://github.com/Dhwarkesh4545/Ip_Specter.git)
 cd Ip_Specter
 
-# Install required dependencies
+# 2. Create a virtual environment named 'venv'
+python3 -m venv venv
+
+# 3. Activate the virtual environment
+source venv/bin/activate
+
+# 4. Install required dependencies inside the environment
 pip install -r requirements.txt
